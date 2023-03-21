@@ -9,7 +9,6 @@ public class Music {
     }
 
     public Integer selection(Integer startIndex, String selection){
-        int currentIndex = 0;
         int selectIndex = 0;
         for (int i = 0; i < playList.length; i++) {
             if (playList[i].equals(selection)) {
